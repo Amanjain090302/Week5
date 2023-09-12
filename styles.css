@@ -1,0 +1,482 @@
+        body {
+            font-size: 16px;
+            color: #fff;
+            font-family: 'Oxygen', sans-serif;
+            background-color: #61122f;
+        }
+        /* header Start */
+        /* header logo & Restro name Start */
+        
+        #header-nav {
+            background-color: #f6b319;
+            border-radius: 0;
+            border: 0;
+            /* padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
+    border: 0px, 0px, 0px, 0px; */
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #logo-img {
+            background: url('images/logo-removebg-preview.png')no-repeat;
+            width: 150px;
+            height: 77px;
+            margin: 10px 15px 10px 0px;
+            padding: 10px, 10px, 10px, 10px;
+        }
+        
+        .navbar-brand {
+            padding-top: 25px;
+        }
+        
+        .navbar-brand h1 {
+            font-family: 'Lora', serif;
+            color: #557c3e;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px 1px #222;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: .75;
+        }
+        
+        .navbar-brand a:hover,
+        .navbar-brand a:focus {
+            text-decoration: none;
+        }
+        
+        .navbar-brand p {
+            color: #000;
+            text-transform: uppercase;
+            font-size: .7em;
+            margin-top: 15px;
+        }
+        
+        .navbar-brand p span {
+            vertical-align: middle;
+        }
+        /* header logo & Restro name End */
+        /* header Button Start */
+        
+        #nav-list {
+            margin-top: 10px;
+        }
+        
+        #nav-list a {
+            color: #951c49;
+            text-align: center;
+        }
+        
+        #nav-list a:hover {
+            background-color: #E7E7E7;
+        }
+        
+        #nav-list a span {
+            font-size: 1.8em;
+        }
+        
+        #phone {
+            margin-top: 5px;
+        }
+        
+        #phone a {
+            text-align: right;
+            padding-bottom: 0;
+        }
+        
+        #phone div {
+            color: #557c3e;
+            text-align: right;
+            padding-right: 15px;
+        }
+        /* header Button End */
+        /* header End */
+        /* Home Page Tile Start */
+        
+        #menu-tile,
+        #specials-tile,
+        #map-tile {
+            height: 250px;
+            width: 100%;
+            margin-bottom: 15px;
+            position: relative;
+            border: 2px solid #3F0C1F;
+            overflow: hidden;
+        }
+        
+        #menu-tile:hover,
+        #specials-tile:hover,
+        #map-tile:hover {
+            box-shadow: 0 1px 5px 1px #cccccc;
+            height: 255px;
+            width: 100.5%;
+            margin-bottom: 15px;
+            position: relative;
+            border: 3px solid greenyellow;
+            overflow: hidden;
+        }
+        
+        #menu-tile {
+            background-image: url('images/MenuImg.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+        }
+        
+        #specials-tile {
+            background-image: url('images/specialsImg2.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+        }
+        
+        #menu-tile span,
+        #specials-tile span,
+        #map-tile span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1.6em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color: #000;
+            color: #fff;
+            opacity: .8;
+            border: 1px transparent black
+        }
+        /* Home Page Tile Start */
+        /* Menu-Categories Tile Start */
+        
+        #menu-categories {
+            height: 250px;
+            width: 100%;
+            margin-bottom: 15px;
+            position: relative;
+            border: 2px solid #3F0C1F;
+            overflow: hidden;
+        }
+        
+        #menu-categories:hover {
+            box-shadow: 0 1px 5px 1px #cccccc;
+            margin-bottom: 15px;
+            position: relative;
+            border: 3px solid greenyellow;
+            overflow: hidden;
+        }
+        
+        #menu-categories span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1.6em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color: #000;
+            color: #fff;
+            opacity: .8;
+            border: 1px transparent black
+        }
+        
+        #menu-categories {
+            background-image: url('images/MenuImg.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+        }
+        /* Menu-Categories Tile End */
+        /* Jumbo-Tron Start */
+        
+        .container .jumbotron {
+            box-shadow: 0 0 50px #3F0C1F;
+            border: 2px solid #3F0C1F;
+        }
+        /* Jumbo-Tron End */
+        /* Footer Start */
+        
+        #footer-home {
+            border: 2px solid rgb(37, 35, 35);
+            background-color: #222;
+            border-radius: 0;
+        }
+        
+        #date-time,
+        #Address,
+        #comments {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.8em;
+            font-size: 1em;
+        }
+        
+        #footer-home h4 {
+            text-decoration: underline white;
+        }
+        /* Footer End */
+        /* Single-Menu Style Page */
+        /*  Single menu Items Start */
+        
+        .menu-item-tile {
+            margin-bottom: 25px;
+        }
+        
+        .menu-item-tile hr {
+            width: 80%;
+        }
+        
+        .menu-item-tile .menu-item-price {
+            font-size: 1.1em;
+            text-align: right;
+            margin-top: -15px;
+            margin-right: -15px;
+        }
+        
+        .menu-item-tile .menu-item-price span {
+            font-size: .6em;
+        }
+        
+        .menu-item-photo {
+            position: relative;
+            border: 2px solid #3F0C1F;
+            overflow: hidden;
+            padding: 0;
+            margin-right: -15px;
+            margin-left: auto;
+            margin-bottom: 20px;
+            max-width: 250px;
+        }
+        
+        .menu-item-photo div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 80px;
+            background-color: #557c3e;
+            text-align: center;
+        }
+        
+        .menu-item-description {
+            padding-right: 30px;
+        }
+        
+        h3.menu-item-tile {
+            margin: 0 0 10px;
+        }
+        
+        .menu-item-details {
+            font-size: .9em;
+            font-style: italic;
+        }
+        /*  Single menu Items End */
+        
+        @media (min-width:1200px) {
+            .container #certificateImg {
+                background: url('images/certification-removebg-preview.png') no-repeat;
+                background-size: contain;
+                width: 50px;
+                height: 50px;
+            }
+            .container .jumbotron {
+                background: url('images/JumboImg.jpg') no-repeat;
+                height: 675px;
+                align-items: center;
+                box-shadow: 0 0 50px #3F0C1F;
+                border: 2px solid #3F0C1F;
+            }
+            .container #Address {
+                border-right: 2px solid white;
+                border-left: 2px solid white;
+                height: 220px;
+            }
+        }
+        
+        @media (min-width:992px) and (max-width:1199px) {
+            .container #certificateImg {
+                background: url('images/certification-removebg-preview.png') no-repeat;
+                background-size: contain;
+                width: 50px;
+                height: 50px;
+            }
+            .container .jumbotron {
+                background: url('images/JumboImg.jpg') no-repeat;
+                background-size: contain;
+                background-size: 100%;
+                background-position: center;
+                height: 500px;
+                box-shadow: 0 0 50px #3F0C1F;
+                border: 2px solid #3F0C1F;
+            }
+            .container #Address {
+                border-right: 2px solid white;
+                border-left: 2px solid white;
+                height: 250px;
+            }
+        }
+        
+        @media (min-width:768px) and (max-width:991px) {
+            .container #certificateImg {
+                background: url('images/certification-removebg-preview.png') no-repeat;
+                background-size: contain;
+                width: 50px;
+                height: 50px;
+            }
+            .container .jumbotron {
+                background: url('images/JumboImg.jpg') no-repeat;
+                background-size: contain;
+                background-size: 100%;
+                background-position: center;
+                height: 400px;
+                box-shadow: 0 0 50px #3F0C1F;
+                border: 2px solid #3F0C1F;
+            }
+            .container #Address {
+                border-right: 2px solid white;
+                border-left: 2px solid white;
+                height: 300px;
+            }
+        }
+        
+        @media (min-width:767px)and (max-width:768px) {
+            .container #certificateImg {
+                background: url('images/certification-removebg-preview.png') no-repeat;
+                background-size: contain;
+                width: 30px;
+                height: 30px;
+            }
+            .navbar-brand {
+                padding-top: 10px;
+                height: 80px;
+            }
+            .navbar-brand h1 {
+                padding-top: 10px;
+                height: 5vw;
+            }
+            .navbar-brand p {
+                font-size: .6em;
+                margin-top: 12px;
+            }
+            .navbar-brand p img {
+                height: 20px;
+            }
+            .container .jumbotron {
+                /* background: url('images/JumboImg.webp') no-repeat; */
+                /* height: 400px; */
+                margin-top: 30px;
+                padding: 0;
+                align-items: center;
+                box-shadow: 0 0 50px #3F0C1F;
+                border: 5px solid #3F0C1F;
+            }
+            .container .call {
+                border: 2px solid #f6b319;
+                box-shadow: 0 0 50px #3F0C1F;
+                text-align: center;
+                font-size: 1.2em;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            #menu-tile {
+                width: 400px;
+                margin: 0 auto 15px;
+            }
+            #specials-tile {
+                width: 400px;
+                margin: 0 auto 15px;
+            }
+            .container #menu-tile:hover,
+            #specials-tile:hover {
+                height: 255px;
+                width: 404px;
+            }
+            .container #date-time,
+            #Address,
+            #comments {
+                width: 400px;
+                margin: 0 auto 15px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.8em;
+                font-size: 1em;
+            }
+        }
+        
+        @media (max-width:767px) {
+            .container #certificateImg {
+                background: url('images/certification-removebg-preview.png') no-repeat;
+                background-size: contain;
+                width: 30px;
+                height: 30px;
+            }
+            .navbar-brand {
+                padding-top: 10px;
+                height: 80px;
+            }
+            .navbar-brand h1 {
+                padding-top: 10px;
+                height: 5vw;
+            }
+            .navbar-brand p {
+                font-size: .6em;
+                margin-top: 12px;
+            }
+            .navbar-brand p img {
+                height: 20px;
+            }
+            .container .jumbotron {
+                /* background: url('images/JumboImg.webp') no-repeat; */
+                /* height: 400px; */
+                margin-top: 30px;
+                padding: 0;
+                align-items: center;
+                box-shadow: 0 0 50px #3F0C1F;
+                border: 5px solid #3F0C1F;
+            }
+            .container .call {
+                border: 2px solid #f6b319;
+                box-shadow: 0 0 50px #3F0C1F;
+                text-align: center;
+                font-size: 1.2em;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            #menu-tile {
+                width: 400px;
+                margin: 0 auto 15px;
+            }
+            #specials-tile {
+                width: 400px;
+                margin: 0 auto 15px;
+            }
+            .container #menu-tile:hover,
+            #specials-tile:hover {
+                height: 255px;
+                width: 404px;
+            }
+            .container #date-time,
+            #Address,
+            #comments {
+                width: 400px;
+                margin: 0 auto 15px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.8em;
+                font-size: 1em;
+            }
+            .container .menu-item-photo {
+                margin-right: auto;
+            }
+            .menu-item-tile .menu-item-price {
+                text-align: center;
+            }
+            .menu-item-description {
+                text-align: center;
+            }
+            #menu-categories {
+                height: 250px;
+                width: 75%;
+                margin-bottom: 15px;
+                position: relative;
+                border: 2px solid #3F0C1F;
+                overflow: hidden;
+            }
+        }
